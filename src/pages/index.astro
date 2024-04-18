@@ -1,0 +1,19 @@
+---
+import { Party } from "../confetti";
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>🎈 Gord 🎈</title>
+	</head>
+	<body style="display: grid; place-items: center; min-height: 100dvh; background-color: #010101; color: #FFF">
+		<span style="text-align: center;">
+			<p>It's your birthday today</p>
+			<h1>GORD!</h1>
+		</span>
+		<Party client:only />
+	</body>
+</html>
